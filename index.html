@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">ARREGLOS</h1>
+    <section class="general-container">
+        <article class="container" id="exercise1">
+            <h3 class="exercise-title">Ejercicio 1</h3>
+            <button class="btn btn-primary" type="button" onclick="ejercicio1()">Generar arreglo</button>
+        </article>
+
+        <article class="container" id="exercise2">
+            <h3 class="exercise-title">Ejercicio 2</h3>
+            <button class="btn btn-primary" type="button" onclick="ejercicio2()">Convertir string a arreglo</button>
+        </article>
+
+        <article class="container" id="exercise3">
+            <h3 class="exercise-title">Ejercicio 3</h3>
+            <p id="show-array">
+                <input type="text" id="ex3-input" value="10, 40, 30, 20, 15, 5" oninput="filterInput(event)" placeholder="Ingrese números y comas">
+            </p>
+            <button class="btn btn-primary" type="button" onclick="ejercicio3()">Ordenar elementos del arreglo</button>
+        </article>
+    </section>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
