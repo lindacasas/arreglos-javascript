@@ -32,5 +32,5 @@ Linda Melissa Casas Huanca
 
 ## URL
 
-- GitHub:
-- GitHub Pages:
+- GitHub: https://github.com/lindacasas/arreglos-javascript
+- GitHub Pages: https://lindacasas.github.io/arreglos-javascript/
